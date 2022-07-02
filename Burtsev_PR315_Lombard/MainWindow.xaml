@@ -1,0 +1,21 @@
+﻿<Window x:Class="Burtsev_PR315_Lombard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Burtsev_PR315_Lombard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="Логин" Margin="233,25,358,318" >
+            <TextBox Name="txtBoxLogin"/>
+        </GroupBox>
+
+        <GroupBox Header="Пароль" Margin="225,123,366,220" >
+            <TextBox Name="txtBoxPassword"/>
+        </GroupBox>
+
+        <Button x:Name="btnLogin" Margin="157,230,443,136" Content="Войти" Click="btnLogin_Click"/>
+        <Button x:Name="btnCancel" Margin="377,231,223,135" Content="Отменить" Click="btnCancel_Click"/>
+    </Grid>
+</Window>
